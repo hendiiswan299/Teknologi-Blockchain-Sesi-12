@@ -1,0 +1,82 @@
+body {
+font-family: "Segoe UI", Arial, sans-serif;
+background: #f4f6f8;
+margin: 0;
+padding: 0;
+}
+
+.container {
+max-width: 600px;
+margin: 60px auto;
+background: #fff;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+h1 {
+text-align: center;
+color: #0d47a1;
+    }
+.subtitle {
+text-align: center;
+color: #555;
+margin-bottom: 30px;
+}
+input[type=file] {
+width: 100%;
+padding: 10px;
+border: 2px dashed #bbb;
+border-radius: 6px;
+margin-bottom: 20px;
+}
+
+button {
+width: 100%;
+padding: 12px;
+background: #0d47a1;
+border: none;
+color: #fff;
+font-size: 16px;
+border-radius: 6px;
+cursor: pointer;
+}
+
+button:hover {
+background: #08306b;
+}
+
+.result {
+margin-top: 25px;
+padding: 15px;
+border-radius: 6px;
+font-size: 15px;
+}
+
+.success {
+background: #e8f5e9;
+color: #1b5e20;
+}
+
+.error {
+background: #ffebee;
+color: #b71c1c;
+}
+.error {
+background: #ffebee;
+color: #b71c1c;
+}
+
+.hash-box {
+background: #f1f1f1;
+padding: 10px;
+font-family: monospace;
+font-size: 13px;
+border-radius: 4px;
+word-break: break-all;
+}
+.footer {
+text-align: center;
+margin-top: 40px;
+color: #777;
+font-size: 13px;
+}
